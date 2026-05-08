@@ -62,6 +62,7 @@ const files = [
             <div class="stat-row"><span>Format</span><strong>B2B newsletter</strong></div>
             <div class="stat-row"><span>Audience</span><strong>Vendors · VPs · BD teams</strong></div>
             <div class="stat-row"><span>Status</span><strong class="status-live">Live</strong></div>
+            <div class="stat-row"><span>Website</span><a href="https://terminal-intelligence.com/" target="_blank" rel="noopener" class="stat-link">terminal-intelligence.com ↗</a></div>
           </div>
         </div>
       </div>
@@ -204,6 +205,8 @@ const files = [
   .stat-row span { color: var(--text-muted); }
   .stat-row strong { color: var(--text); }
   .status-live { color: #34d399 !important; }
+  .stat-link { color: #f472b6; font-size: 13px; font-weight: 600; transition: opacity 0.2s; }
+  .stat-link:hover { opacity: 0.7; text-decoration: none; }
   @media (max-width: 900px) {
     .project-grid { grid-template-columns: 1fr; }
   }
